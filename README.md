@@ -81,10 +81,7 @@
 | 5 | wafw00f | `wafw00f networkwalks.com` | Behind a ModSecurity (SpiderLabs) WAF |
 | 6 | dnsrecon | `dnsrecon -d networkwalks.com` | 8 records: SOA and NS on HostGator, BIND 9.16.23-RH shown, MX and A on 192.232.216.135, SPF ending `~all`, cPanel autodiscover SRV records |
 
-<details>
-<summary><b>Show PM1 screenshots</b></summary>
-
-<br>
+### PM1 screenshots
 
 **1. whois**
 
@@ -110,7 +107,6 @@
 
 <img src="screenshots/PM1/06_dnsrecon.png" width="800" alt="dnsrecon -d networkwalks.com">
 
-</details>
 
 ---
 
@@ -123,10 +119,7 @@
 | 1 | `theHarvester -d microsoft.com -l 1000 -b baidu` | No IPs, emails, people or hosts returned by Baidu |
 | 2 | `theHarvester -d microsoft.com -l 50 -b all` | Some sources need API keys and failed; other sources returned a long list of microsoft.com hostnames and IPs. No email results were captured in my screenshots. |
 
-<details>
-<summary><b>Show PM4 screenshots</b></summary>
-
-<br>
+### PM4 screenshots
 
 **theHarvester help (version 4.11.1)**
 
@@ -144,7 +137,6 @@
 
 <img src="screenshots/PM4/04_task2_all_results.png" width="800" alt="theHarvester all sources results">
 
-</details>
 
 ---
 
@@ -177,10 +169,7 @@
 - Zenmap practice lab quiz score: **100%** ([screenshot](screenshots/PM5/08_lab_page_score_100.png))
 - Extra: an earlier scan of the `10.0.0.0/24` adapter found only my own PC (1 host up), so I repeated the practical on the Wi-Fi LAN.
 
-<details>
-<summary><b>Show PM5 screenshots</b></summary>
-
-<br>
+### PM5 screenshots
 
 **Nmap installation finished**
 
@@ -216,7 +205,6 @@
 
 <img src="screenshots/PM5/10_extra_scan_10-0-0-0.png" width="800" alt="Zenmap scan of 10.0.0.0/24">
 
-</details>
 
 ---
 
